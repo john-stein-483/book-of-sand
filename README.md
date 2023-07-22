@@ -3,7 +3,7 @@ This repo is mostly going to be a training ground for app/coding ideas.
 
 The Book of Sand is a short story by Jorge Borges.  It's been a long time since I read it, but it's basically a story about a book that is constantly evolving and never retains its content, even when you go back pages.  It seems like a solid project idea to start messing with.
 
-The basic idea will be a mad lib style find and replace application that takes a term and searches google for content and returns html <p> tabs and eventually swaps content and becomes something resembling pages in a bizarre story.  
+The basic idea will be a mad lib style find and replace application that takes a term and searches google for content and returns html \<p>\ tabs and eventually swaps content and becomes something resembling pages in a bizarre story.  
 
 So you start with a search term or something.
 Plop that term into a google search and return the html content of the nth indexed result
