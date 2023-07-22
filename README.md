@@ -3,11 +3,11 @@ This repo is mostly going to be a training ground for app/coding ideas.
 
 The Book of Sand is a short story by Jorge Borges.  It's been a long time since I read it, but it's basically a story about a book that is constantly evolving and never retains its content, even when you go back pages.  It seems like a solid project idea to start messing with.
 
-The basic idea will be a mad lib style find and replace application that takes a term and searches google for content and returns html \<p>\ tabs and eventually swaps content and becomes something resembling pages in a bizarre story.  
+The basic idea will be a mad lib style find and replace application that takes a term and searches google for content and returns html \<p> tabs and eventually swaps content and becomes something resembling pages in a bizarre story.  
 
 So you start with a search term or something.
 Plop that term into a google search and return the html content of the nth indexed result
-Find all info in <p> tags - scan these for content length to avoid short, trivial bits - we want story-like content.
+Find all info in \<p> tags - scan these for content length to avoid short, trivial bits - we want story-like content.
 Take the target paragraph of text, and run it through a Natural Language Parser.  
 Grab the interesting elements - nouns, probably
 And run those elements as search items into another search
@@ -27,7 +27,7 @@ It would probably also be interseting to have image or video content.  And audio
 
 And who knows, maybe I could paramaterize 'sensitivity to initial conditions' to set expectations on the influence of random parts.  So the nth could be limited to the top 3, or top 300.  
 
-Content thresholds could also play a factor.  Lower thresholds might introduce more noise, since it might find <p> tags that are routine content.  So, do you want 1000 characters or 10000?
+Content thresholds could also play a factor.  Lower thresholds might introduce more noise, since it might find \<p> tags that are routine content.  So, do you want 1000 characters or 10000?
 
 Using scrolling instead of page button switches could get interesting too.  As soon as text is out of view, it could be a candidate for content-switching.  And maybe I could supply a degree of shift.  Like the further you go back up the story, the more it reaches out for new/out-of-context content.
 
